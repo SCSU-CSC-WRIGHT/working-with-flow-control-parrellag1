@@ -15,4 +15,6 @@ while count <= attempts:
         print ("correct")  
         break
     count += 1
-print("womp womp")   
+
+if count > attempts:
+    print("womp womp")   
